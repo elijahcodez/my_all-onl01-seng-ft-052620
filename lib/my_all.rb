@@ -7,6 +7,6 @@ def my_all?(collection)
     if yield(collection[index])
       return(collection[index])
     end
-    index 
+    index += 1
 
 end
